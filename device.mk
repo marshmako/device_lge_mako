@@ -133,6 +133,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.sf.lcd_density=320
+	
+# http://b/15193147
+# TODO(danalbert): Remove this once stlport is dead and gone.
++PRODUCT_PACKAGES +=  libstlport
 
 # Audio Configuration
 # FIXME: Remove persist.audio.handset.mic and persist.audio.fluence.mode
