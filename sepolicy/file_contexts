@@ -80,7 +80,6 @@
 /system/bin/qcks                   u:object_r:kickstart_exec:s0
 /system/bin/efsks                  u:object_r:kickstart_exec:s0
 /system/bin/ks                     u:object_r:kickstart_exec:s0
-/system/bin/kickstart_checker\.sh  u:object_r:kickstart_exec:s0
 
 # Block labeling
 /dev/block/platform/msm_sdcc\.1/by-name/m9kefs[12]    u:object_r:efs_block_device:s0
