@@ -37,7 +37,7 @@ static int wifi_check_qcom_cfg_files()
     }
     else
     {
-        int n = fread(macAddress, 12, 1, fp);
+        int n = fread(macAddress, 1, 12, fp);
         fclose(fp);
         if (n != 12) {
             memset(macAddress, 0, 13);
