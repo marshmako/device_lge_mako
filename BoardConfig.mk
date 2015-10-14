@@ -112,4 +112,6 @@ EXTENDED_FONT_FOOTPRINT := true
 
 MALLOC_IMPL := dlmalloc
 
+USE_CLANG_PLATFORM_BUILD := true
+
 -include vendor/lge/mako/BoardConfigVendor.mk
