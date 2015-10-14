@@ -142,7 +142,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	
 # http://b/15193147
 # TODO(danalbert): Remove this once stlport is dead and gone.
-+PRODUCT_PACKAGES +=  libstlport
+PRODUCT_PACKAGES +=  libstlport
 
 # Audio Configuration
 # FIXME: Remove persist.audio.handset.mic and persist.audio.fluence.mode
